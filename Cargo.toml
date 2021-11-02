@@ -1,0 +1,11 @@
+[package]
+name = "zengo_gg20_lib_usage"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+multi-party-ecdsa = { version = "0.7.4", git = "https://github.com/ZenGo-X/multi-party-ecdsa.git" }
+curv = { package = "curv-kzen", version = "0.7", default-features = false }
+round-based = { version = "0.1.4", features = [] }
